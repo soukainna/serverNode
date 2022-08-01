@@ -6,7 +6,7 @@ let server = http.createServer() //c'est une instance de mon http server
 //je souhaite écouter si il ya une requete et prendra une fonction
 server.on('request', (request, response) => {
     // console.log('il ya eu une requete')
-    fs.readFile('indaex.html', (err, data) => 
+    fs.readFile('index.html', (err, data) => 
     {
         if(err){
             //throw err
